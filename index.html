@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar  -->
+
+    <nav class="navbar">
+      <div class="colorContainer">
+        <p
+          class="red"
+          style="background-color: red; height: 6vh; width: 23%"
+        ></p>
+        <p
+          class="green"
+          style="background-color: green; height: 6vh; width: 23%"
+        ></p>
+        <p
+          class="blue"
+          style="background-color: blue; height: 6vh; width: 23%"
+        ></p>
+        <p
+          class="orange"
+          style="background-color: orange; height: 6vh; width: 23%"
+        ></p>
+      </div>
+      <div>
+        <!-- add button -->
+
+        <div class="iconNavContainer">
+          <svg
+            class="addBtn"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            width="24"
+            height="24"
+          >
+            <path
+              d="M15 4H5V20H19V8H15V4ZM3 2.9918C3 2.44405 3.44749 2 3.9985 2H16L20.9997 7L21 20.9925C21 21.5489 20.5551 22 20.0066 22H3.9934C3.44476 22 3 21.5447 3 21.0082V2.9918ZM11 11V8H13V11H16V13H13V16H11V13H8V11H11Z"
+            ></path>
+          </svg>
+
+          <!-- delete button -->
+
+          <svg
+            class="deleteBtn"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            width="24"
+            height="24"
+          >
+            <path
+              d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM9 11H11V17H9V11ZM13 11H15V17H13V11ZM9 4V6H15V4H9Z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ticket  -->
+
+    <div class="ticketContainer">
+      <!-- <div class="ticket">
+        <div class="ticketColor" style="background-color: red"></div>
+       <div class="ticketText">This is a sample task.</div>
+        <svg
+          class="textLock"
+          height="24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+        >
+          <path
+            d="M6 10V20H19V10H6ZM18 8H20C20.5523 8 21 8.44772 21 9V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V9C3 8.44772 3.44772 8 4 8H6V7C6 3.68629 8.68629 1 12 1C15.3137 1 18 3.68629 18 7V8ZM16 8V7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7V8H16ZM7 11H9V13H7V11ZM7 14H9V16H7V14ZM7 17H9V19H7V17Z"
+          ></path>
+        </svg>
+      </div> -->
+
+      <div class="ticketCreateContainer hide">
+        <textarea
+          class="ticketTextArea"
+          placeholder="Enter your task here..."
+        ></textarea>
+        <div class="createColorContainer">
+          <p
+            class="red activeColor"
+            style="background-color: red; height: 7vh; width: 2vw"
+          ></p>
+          <p
+            class="green"
+            style="background-color: green; height: 7vh; width: 2vw"
+          ></p>
+          <p
+            class="blue"
+            style="background-color: blue; height: 7vh; width: 2vw"
+          ></p>
+          <p
+            class="orange"
+            style="background-color: orange; height: 7vh; width: 2vw"
+          ></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

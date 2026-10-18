@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.navbar {
+  margin-top: 10px;
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.colorContainer {
+  width: 40%;
+  height: 7vh;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: solid gray;
+}
+
+.iconNavContainer {
+  height: 7vh;
+  width: 8vw;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: solid gray;
+}
+
+.ticketContainer {
+  height: 90vh;
+  width: 100vw;
+  border: solid gray;
+  background-color: #a7c3e3;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.ticket {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  width: 15vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: solid gray;
+  background-color: aliceblue;
+}
+.textLock {
+  margin-top: auto;
+  align-self: flex-end;
+}
+
+
+
+.ticketCreateContainer {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  width: 25vw;
+  height: 42vh;
+  display: flex;
+justify-content: space-between;
+  border-radius: 5px;
+  border: solid gray;
+ 
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.createColorContainer {
+  width: 3vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+  border: solid gray;
+  align-items: center;
+  justify-content: center;
+}
+
+.ticketTextArea {
+  width: 20vw;
+  height: 40vh;
+  border-radius: 5px;
+  border: solid gray;
+  resize: none;
+}
+.activeColor {
+ border: solid white;
+  border-width: 3px;
+}
+
